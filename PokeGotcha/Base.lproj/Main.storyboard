@@ -48,14 +48,14 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="2qo-MX-zm6">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PokeCell" id="2qo-MX-zm6" customClass="PokeCell" customModule="PokeGotcha" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="105" height="105"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="105" height="105"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="100" translatesAutoresizingMaskIntoConstraints="NO" id="nVT-FS-jRN">
+                                                <imageView userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="100" translatesAutoresizingMaskIntoConstraints="NO" id="nVT-FS-jRN">
                                                     <rect key="frame" x="0.0" y="0.0" width="105" height="80"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="80" id="Blf-9n-X2o"/>
@@ -80,6 +80,10 @@
                                             <constraint firstItem="nVT-FS-jRN" firstAttribute="top" secondItem="2qo-MX-zm6" secondAttribute="top" id="oFu-Dc-ce8"/>
                                             <constraint firstItem="nVT-FS-jRN" firstAttribute="leading" secondItem="2qo-MX-zm6" secondAttribute="leading" id="zQN-aG-pvG"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="nameLbl" destination="40L-Ue-u4i" id="uJh-MS-8Xu"/>
+                                            <outlet property="thumbImg" destination="nVT-FS-jRN" id="ur6-9x-xqQ"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
