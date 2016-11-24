@@ -9,5 +9,6 @@ Topics covered:
 3.  Using the MVC Standard model and creating separate Class files
 4.  Designing a user friendly UI view
 5.  Encapsulating Data
+6.  Using collectionViews and collectionViewCells to add pokemon images and labels to the application
 
 
