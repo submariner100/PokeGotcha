@@ -12,6 +12,7 @@ Topics covered:.
 5.  Encapsulating Data.
 6.  Using collectionViews and collectionViewCells to add pokemon images and labels to the application.
 7.  Adding audio and custom fonts into application.
+8.  AVFoundation.
 
 
 
