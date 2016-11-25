@@ -10,5 +10,7 @@ Topics covered:
 4.  Designing a user friendly UI view
 5.  Encapsulating Data
 6.  Using collectionViews and collectionViewCells to add pokemon images and labels to the application
+7.  Adding audio and custom fonts into application
+
 
 
