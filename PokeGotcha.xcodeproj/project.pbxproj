@@ -17,6 +17,7 @@
 		27A6B7731DE71071007BED16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A6B7711DE71071007BED16 /* Main.storyboard */; };
 		27A6B7751DE71071007BED16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27A6B7741DE71071007BED16 /* Assets.xcassets */; };
 		27A6B7781DE71071007BED16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27A6B7761DE71071007BED16 /* LaunchScreen.storyboard */; };
+		27B11D9E1DE8BBDB0058C1BA /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B11D9D1DE8BBDB0058C1BA /* csv.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		27A6B7741DE71071007BED16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27A6B7771DE71071007BED16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27A6B7791DE71071007BED16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B11D9D1DE8BBDB0058C1BA /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +82,6 @@
 			children = (
 				274EDEA61DE7570400AB1ABB /* Contents.json */,
 				274EDEA41DE756A900AB1ABB /* music.mp3 */,
-				274EDE9A1DE74A0A00AB1ABB /* pokemon.csv */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -121,6 +122,8 @@
 				27A6B76F1DE71071007BED16 /* ViewController.swift */,
 				27A6B7711DE71071007BED16 /* Main.storyboard */,
 				27A6B7741DE71071007BED16 /* Assets.xcassets */,
+				274EDE9A1DE74A0A00AB1ABB /* pokemon.csv */,
+				27B11D9D1DE8BBDB0058C1BA /* csv.swift */,
 				27A6B7761DE71071007BED16 /* LaunchScreen.storyboard */,
 				27A6B7791DE71071007BED16 /* Info.plist */,
 			);
@@ -160,6 +163,7 @@
 					27A6B7691DE71071007BED16 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 4WU9L65MXB;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -207,6 +211,7 @@
 				27A6B7701DE71071007BED16 /* ViewController.swift in Sources */,
 				27A6B76E1DE71071007BED16 /* AppDelegate.swift in Sources */,
 				274EDEA31DE751AB00AB1ABB /* Pokemon.swift in Sources */,
+				27B11D9E1DE8BBDB0058C1BA /* csv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
