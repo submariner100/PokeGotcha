@@ -13,6 +13,9 @@ Topics covered:.
 6.  Using collectionViews and collectionViewCells to add pokemon images and labels to the application.
 7.  Adding audio and custom fonts into application.
 8.  AVFoundation.
+9.  Outlet and actions added.
+10. Alamofire pods added and Podfile updated to latest Alamofire.
+
 
 
 
