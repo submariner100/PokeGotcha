@@ -1,5 +1,5 @@
 # PokeGotcha
-Application to track down Pokemons around the Country.
+Pokemon Application connecting to PokeAPI listing all the Pokemons in a collection View.
 
 Written in Swift 3.0 and using iOS 10
 
