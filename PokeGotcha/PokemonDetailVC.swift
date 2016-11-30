@@ -71,7 +71,6 @@ class PokemonDetailVC: UIViewController {
                let str = "Next Evolution: \(pokemon.nextEvolutionName) - LVL \(pokemon.nextEvolutionLevel)"
                evoLbl.text = str
                
-               
      }
      
      
